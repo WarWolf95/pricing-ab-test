@@ -1,11 +1,5 @@
 # Pricing A/B Test: UK Motor Insurance Price Elasticity Experiment
 
-[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/Tests-PyTest_11_Passed-brightgreen.svg)](tests/)
-[![Pipeline](https://img.shields.io/badge/Pipeline-10_Steps-2088FF.svg)]()
-[![Regulatory](https://img.shields.io/badge/FCA-PS22%2F9_Consumer_Duty-701B45.svg)](https://www.fca.org.uk/firms/consumer-duty)
-[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF.svg)](.github/workflows/ci.yml)
-
 ---
 
 Production-grade A/B testing framework for a UK motor insurer evaluating granular risk-based pricing. Covers the full experimental lifecycle — pre-registered design, power analysis, stratified randomisation, hypothesis testing, heterogeneous treatment effects, and FCA Consumer Duty compliance — delivered as a stakeholder-ready Excel workbook.
