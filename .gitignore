@@ -11,4 +11,4 @@ data/raw/*.csv
 data/processed/*.parquet
 reports/*.csv
 reports/*.png
-excel/*.xlsx
+# excel/*.xlsx  — intentionally tracked; it's the stakeholder deliverable
