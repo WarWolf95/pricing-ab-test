@@ -2,7 +2,7 @@
 
 ---
 
-Production-grade A/B testing framework for a UK motor insurer evaluating granular risk-based pricing. Covers the full experimental lifecycle — pre-registered design, power analysis, stratified randomisation, hypothesis testing, heterogeneous treatment effects, and FCA Consumer Duty compliance — delivered as a stakeholder-ready Excel workbook.
+Production-grade A/B testing framework for a UK motor insurer evaluating granular risk-based pricing. Covers the full experimental lifecycle (pre-registered design, power analysis, stratified randomisation, hypothesis testing, heterogeneous treatment effects, and FCA Consumer Duty compliance), delivered as a stakeholder-ready Excel workbook.
 
 ## Skills Demonstrated
 
@@ -28,17 +28,17 @@ python -m pytest tests/   # 11 tests
 ## Outputs
 
 `run_pipeline.py` generates:
-- `reports/power_analysis.csv` — Pre-experiment sample size and MDE
-- `reports/balance_table.csv` — Covariate balance with SMD checks
-- `reports/love_plot.png` — Balance visualisation
-- `reports/effect_sizes.csv` — Primary ATEs with CIs and p-values
-- `reports/conversion_funnel.png` — Funnel by arm
-- `reports/subgroup_results.csv` — CATE by region/vulnerability/device
-- `reports/effect_size_forest.png` — Subgroup forest plot
-- `reports/consumer_duty_compliance.csv` — Regulatory audit table
-- `reports/sensitivity_results.csv` — ITT/PP, bootstrap, E-value
-- `reports/executive_briefing.md` — Board-level summary
-- `excel/pricing_ab_test_dashboard.xlsx` — 8-sheet stakeholder workbook
+- `reports/power_analysis.csv`: Pre-experiment sample size and MDE
+- `reports/balance_table.csv`: Covariate balance with SMD checks
+- `reports/love_plot.png`: Balance visualisation
+- `reports/effect_sizes.csv`: Primary ATEs with CIs and p-values
+- `reports/conversion_funnel.png`: Funnel by arm
+- `reports/subgroup_results.csv`: CATE by region/vulnerability/device
+- `reports/effect_size_forest.png`: Subgroup forest plot
+- `reports/consumer_duty_compliance.csv`: Regulatory audit table
+- `reports/sensitivity_results.csv`: ITT/PP, bootstrap, E-value
+- `reports/executive_briefing.md`: Board-level summary
+- `excel/pricing_ab_test_dashboard.xlsx`: 8-sheet stakeholder workbook
 
 ## Project Structure
 
